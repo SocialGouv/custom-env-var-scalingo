@@ -18,3 +18,5 @@ SH
 cat .profile.d/zidane.sh
 
 source ".profile.d/zidane.sh"
+
+set
