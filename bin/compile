@@ -15,4 +15,6 @@ echo $YO
 echo "HIP"
 SH
 
+cat .profile.d/zidane.sh
+
 source ".profile.d/zidane.sh"
