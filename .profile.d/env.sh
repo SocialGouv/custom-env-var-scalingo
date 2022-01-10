@@ -1,2 +1,5 @@
+#!/usr/bin/env bash
 
-ENV
+# Always accept the buildpack
+echo "custom environment variable buildpack"
+exit 0
