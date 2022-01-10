@@ -3,4 +3,14 @@
 set -e
 set -o pipefail
 
+cat > ".profile.d/env.sh" <<SH
+echo "PO PO POOOOOO"
+echo $CUSTOM_YO
+echo "HOPE"
+export CUSTOM_YO="YOOOOOOOO"
+export YO="PLOOOOOOO"
+echo $YO
+echo "HIP"
+SH
+
 source ".profile.d/env.sh"
