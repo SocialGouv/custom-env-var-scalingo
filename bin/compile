@@ -3,6 +3,8 @@
 set -e
 set -o pipefail
 
+test ! -d ".profile.d" && mkdir -p .profile.d || true
+
 cat > ".profile.d/env.sh" <<SH
 echo "PO PO POOOOOO"
 echo $CUSTOM_YO
