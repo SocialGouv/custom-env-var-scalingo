@@ -5,7 +5,7 @@ set -o pipefail
 
 test ! -d ".profile.d" && mkdir -p .profile.d || true
 
-cat > ".profile.d/env.sh" <<SH
+cat > ".profile.d/zidane.sh" <<SH
 echo "PO PO POOOOOO"
 echo $CUSTOM_YO
 echo "HOPE"
