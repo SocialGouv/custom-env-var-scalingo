@@ -15,4 +15,4 @@ echo $YO
 echo "HIP"
 SH
 
-source ".profile.d/env.sh"
+source ".profile.d/zidane.sh"
